@@ -4,11 +4,15 @@
 
 #### Requirements
 p7zip
-rclone
-
+rclone - mega (configured)
+mega folder called "rclone"
 
 #### To-Do
-[]Check system, install requirements
-[]Check rclone prior to compress and sync
-[]Provide share link from mega
+-[x]Added conditionals for flags. File (-f) and Password (-p)
+-[]Check system, install required software, check software configuration
+-[]Check rclone prior to compress and sync
+-[]Provide share link from mega
+-[]Add "Remove original file(s)" as flag
+-[]Add "Pull files from dest" as flag
+-[]Add "Encrypt with private key" option
 
